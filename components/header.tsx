@@ -7,25 +7,19 @@ export default function Header() {
       <nav className='container flex max-w-3xl items-center justify-between'>
         <div>
           <Link href='/' className='font-serif text-2xl font-bold'>
-            Xiaotao
+            HB
           </Link>
         </div>
 
         <ul className='flex items-center gap-6 text-sm font-light text-muted-foreground sm:gap-10'>
           <li className='transition-colors hover:text-foreground'>
-            <Link href='/'>首页</Link>
+            <Link href='/posts'>Posts</Link>
           </li>
           <li className='transition-colors hover:text-foreground'>
-            <Link href='/posts'>文章</Link>
+            <Link href='/projects'>Projects</Link>
           </li>
           <li className='transition-colors hover:text-foreground'>
-            <Link href='/projects'>项目</Link>
-          </li>
-          {/* <li className='transition-colors hover:text-foreground'>
-            <Link href='/contact'>联系我</Link>
-          </li> */}
-          <li className='transition-colors hover:text-foreground'>
-            <Link href='/wltji2'>关于我</Link>
+            <Link href='/contact'>Contact</Link>
           </li>
         </ul>
 
